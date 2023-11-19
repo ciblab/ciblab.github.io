@@ -14,6 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: CIBLab
+author: Fernando Wario
 email: ""
 description: >- # this means to ignore newlines until "baseurl:"
   The CIBLab website
@@ -30,7 +31,10 @@ plugins:
   - jekyll-sitemap
 
 # A list of the pages to display in the navigation bar
-header_pages:  
+header_pages:
+ - research.md
+ - team.html
+ - contact.md
 
 collections:
   people:

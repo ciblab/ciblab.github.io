@@ -1,0 +1,38 @@
+---
+layout: page
+title: Team
+---
+
+  {% for person in site.people %}
+      <div class="person">
+          <div class="person-headshot">
+              <img class="portrait" src="{{ person.image }}"/>
+          </div>
+          <div class="person-bio">
+              <h2 class="person-name">{{ person.name }}</h2>
+
+              <h5 class='position'>
+                {{ person.position }}
+              </h5>
+
+              <a class="bio-item" title="email" href="mailto:{{ person.email }}"><svg class='feather'>Email
+							  <use xlink:href='{{ "/assets/images/feather-sprite.svg#mail" | relative_url }}'/></svg></a>
+              {% if person.twitter %}
+              <a class="bio-item" title="twitter" href="https://www.twitter.com/{{ person.twitter }}"><svg class='feather'>Twitter
+							  <use xlink:href='{{ "/assets/images/feather-sprite.svg#twitter" | relative_url }}'/></svg></a>
+              {% endif  %}
+              {% if person.website %}
+              <a class="bio-item" title="website" href="{{ person.website }}"><svg class='feather'>Website
+							  <use xlink:href='{{ "/assets/images/feather-sprite.svg#home" | relative_url }}'/></svg></a>
+              {% endif  %}
+              {% if person.github %}
+              <a class="bio-item" title="github" href="https://github.com/{{ person.github }}"><svg class='feather'>Github
+							  <use xlink:href='{{ "/assets/images/feather-sprite.svg#github" | relative_url }}'/></svg></a>
+              {% endif  %}
+
+              <div class="person-content">
+                {{ person.content | markdownify }}
+              </div>
+          </div>
+      </div>
+  {% endfor %}

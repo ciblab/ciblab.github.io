@@ -19,16 +19,7 @@
             <a class="nav-link{% if page.url == my_page.url %} nav-link-active{% endif %}" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape | upcase }}</a>
             </li>
           {%- endif -%}
-        {% endfor -%}
-        <li class="nav-item">
-          <a class="nav-link" href="/Research/">RESEARCH</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/Team/">TEAM</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/Contact/">CONTACT</a>
-        </li>
+        {% endfor -%}       
       </ul>
     </div>
   </div>

@@ -1,40 +1,18 @@
 
-<div class="py-5 border-top">
-  <div class="container">
-
-    <p class="h5 mb-3">{{ site.title | escape }}</p>
-
-    <div class="row">
-
-      <div class="col-sm">
-        <ul class="list-unstyled">
-          <li>
-            {%- if site.author -%}
-              {{ site.author | escape }}
-            {%- else -%}
-              {{ site.title | escape }}
-            {%- endif -%}
-          </li>
-          {%- if site.email -%}
-            <li>
-              <a href="mailto:{{ site.email }}">
-                {{ site.email }}
-              </a>
-            </li>
-          {%- endif -%}
-        </ul>
-      </div>
-
-
-      <div class="col-sm text-right">
-        <p>{{- site.description | escape -}}</p>
-
-        <p>
-          <a href="https://twitter.com/CIBLab"><img alt="Follo on X" src="assets/images/x.png" width="50" height="50"></a>
-        <p>       
-      </div>
-
-    </div>
-
+<div class="container footer-text">
+  
+  <p>  
+  
+    <a href="https://twitter.com/CIBLab">
+    <img alt="Follo on X" src="assets/images/x.png" width="50" height="50">
+    </a>
+  
+    {%- if site.description -%}
+      {{ site.description | escape }}    
+    {%- else -%}
+      {{ site.title | escape }}
+    {%- endif -%}
+  
+  </p>
+  
   </div>
-</div>

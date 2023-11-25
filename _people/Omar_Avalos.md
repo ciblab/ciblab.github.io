@@ -8,7 +8,4 @@ twitter:
 github: 
 ---
 
-My goal is to develop interpretable ML methods that can be used for real-world
-scientific problems. To archive this goal, I work on a theoretical foundation of
-interpretable ML. An explanation with a correctness guarantee would be highly
-valuable to a scientist.
+Omar Avalos is currently working as a Professor in the Department of Computer Science at Universidad de Guadalajara. He completed his Ph.D. in Computer Science and Electronics from Universidad de Guadalajara. His research interests include Metaheuristic and Evolutionary computation for image processing, system identification, and energy applications.

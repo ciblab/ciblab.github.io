@@ -8,7 +8,4 @@ twitter: WarioFernando
 github: ferwar
 ---
 
-My goal is to develop interpretable ML methods that can be used for real-world
-scientific problems. To archive this goal, I work on a theoretical foundation of
-interpretable ML. An explanation with a correctness guarantee would be highly
-valuable to a scientist.
+Fernando is an associate professor at Universidad de Guadalajara and an associate researcher at the Institute of Cognitive Sciences and Technologies (ISTC) of the Italian National Research Council (CNR). His current work focuses on the motion dynamics of foragers and information transfer in honey bee colonies. The research interests of Fernando span over computer vision, heuristic optimization, complex systems, computational ethology, and swarm intelligence.

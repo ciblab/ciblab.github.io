@@ -16,8 +16,7 @@
 title: CIBLab
 author: Fernando Wario
 email: ""
-description: >- # this means to ignore newlines until "baseurl:"
-  The CIBLab website
+description: The CIBLab website
 baseurl: "" # the subpath of your site, e.g. /blog
 #url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
@@ -32,9 +31,9 @@ plugins:
 
 # A list of the pages to display in the navigation bar
 header_pages:
- - research.md
+# - research.md
  - team.html
- - contact.md
+# - contact.md
 
 collections:
   people:

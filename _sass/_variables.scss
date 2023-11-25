@@ -3,6 +3,11 @@
 
 $theme: "flatly" !default;
 
+
+$size-mobile:529px;
+$size-med:699px;
+$size-xxl:1299px;
+
 //
 // Color system
 //
@@ -88,7 +93,7 @@ $navbar-dark-brand-hover-color:           $navbar-dark-hover-color !default;
 
 // Pagination
 
-$pagination-color:                  $white !default;
+$pagination-color:                  $black !default;
 $pagination-bg:                     $success !default;
 $pagination-border-width:           0 !default;
 $pagination-border-color:           transparent !default;

@@ -8,15 +8,7 @@ title: Computer Intelligence and Biorobotics Lab
 </p>
 
 
-##  Collaborators
-
-
-* Dr. Omar Avalos Alvarez
-* Dr. José Octavio Camarena Méndez
-* Dr. Primitivo Emmanuel Díaz Guerrero
-* Dr. Jorge de Jesús Gálvez Rodríguez
-* Dr. Salvador Miguel Hinojosa Cervantes
-* Dr. Fernando Wario Vázquez
+The Computer Intelligence and Biorobotics Lab (CIBLab) is a technological research and development laboratory where researchers and students continually develop high-impact research projects, prototypes of inventions, and applied science projects that involve society, academia, government and industry. The laboratory promotes the training of highly skilled professionals, stimulates innovation, facilitates knowledge transfer and encourages applied research.
 
 
 

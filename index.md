@@ -12,9 +12,9 @@ title: HOME
   <img src="assets/images/ciblab4.png"/>
 </p>
 
+The Computer Intelligence and Biorobotics Lab (CIBLab) is a laboratory dedicated to advancing artificial intelligence and its application in critical sectors such as medicine, biology, agronomy, robotics, industrial processes and energy. Through the design and implementation of advanced machine learning techniques and metaheuristic methods, the laboratory addresses complex problems, promoting innovative and sustainable solutions.
 
-The Computer Intelligence and Biorobotics Lab (CIBLab) is a technological research and development laboratory where researchers and students continually develop high-impact research projects, prototypes of inventions, and applied science projects that involve society, academia, government and industry. The laboratory promotes the training of highly skilled professionals, stimulates innovation, facilitates knowledge transfer and encourages applied research.
-
+The CIBLab is interested in developing algorithms and computational tools that allow automation of the monitoring, quantification, modelling, and simulation of complex problems through artificial intelligence.
 
 
 ## Page under construction

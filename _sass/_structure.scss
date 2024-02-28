@@ -1,6 +1,14 @@
 body {
 }
 
+.page-header {
+  position: relative;
+  display: block;
+  min-height: 100px;
+  background-color:$blue;
+  mix-blend-mode:none;  
+}
+
 .logoText {
   position: absolute;
   display: block;

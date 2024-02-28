@@ -31,9 +31,10 @@ plugins:
 
 # A list of the pages to display in the navigation bar
 header_pages:
-# - research.md
+ - index.md
+ - research.md
  - team.html
-# - contact.md
+ - contact.md
 
 collections:
   people:

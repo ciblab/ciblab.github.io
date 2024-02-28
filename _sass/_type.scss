@@ -1,6 +1,19 @@
+p {
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+  font-family: $ciblab-sans;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 2rem;
+  color: $gray-800;
+  font-weight: 300;
+  font-family: $ciblab-source;
+  letter-spacing: 1px;
+}
 
 h1 {
-  font-size: 3.2rem;
+  font-size: 4.2rem;
 }
 
 h2 {

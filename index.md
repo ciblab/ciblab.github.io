@@ -1,7 +1,12 @@
 ---
 layout: page
-title: Computer Intelligence and Biorobotics Lab
+title: HOME
 ---
+
+
+<header align="center">
+    <h1>Computer Intelligence and Biorobotics Lab</h1>
+  </header>
 
 <p align="center">
   <img src="assets/images/ciblab4.png"/>

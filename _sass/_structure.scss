@@ -6,7 +6,8 @@ body {
   display: block;
   min-height: 200px;
   background-color:$blue;
-  mix-blend-mode:none;  
+  mix-blend-mode:none;
+  clip-path: url(#curve-0-clip);
 }
 
 .logoText {
@@ -75,7 +76,14 @@ main {
   //mix-blend-mode:saturation;
   // clip-path: url('/website/assets/images/clips.svg#myCurve');
 }
-
+.curve-1{
+  background-color: $gray-500;
+  clip-path: url(#curve-1-clip);
+}
+.curve-2{
+  background-color: $gray-800;
+  clip-path: url(#curve-2-clip);
+}
 
 footer {
   clear: both;

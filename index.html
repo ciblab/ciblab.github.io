@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Computer Intelligence and Biorobotics Lab</title>
+    <style>
+        /* Estilos adicionales para el menú de hamburguesa */
+        #mobile-menu {
+            transition: transform 0.3s ease-in-out;
+            transform: translateY(-100%);
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            background-color: #7f7fa8;
+            z-index: 10;
+        }
+        #mobile-menu.open {
+            transform: translateY(0);
+        }
+    </style>
+</head>
+<body class="bg-[#1c2e4a] text-gray-200 text-center font-roboto">
+    <!-- Header -->
+    <header class="bg-[#7f7fa8] text-gray-800 py-2.5 px-5 flex items-center justify-between">
+        <a href="index.html">
+            <img src="Images/Imagen1.jpg" alt="Logo" class="w-12 h-12 cursor-pointer rounded-full">
+        </a>
+        <!-- Botón de hamburguesa para móviles -->
+        <button id="menu-hamburguesa" style="z-index: 101;" class="md:hidden focus:outline-none">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+            </svg>
+        </button>
+    </header>
+
+    <!-- Resto del contenido -->
+    <img src="Images/Imagen1.jpg" alt="Main Image" class="w-72 h-72 rounded-full object-cover mx-auto my-5">
+
+    <div class="max-w-4xl mx-auto px-5 py-5 text-left">
+        <h1 class="text-3xl font-bold mb-5 text-center">Welcome to the Computer Intelligence and Biorobotics Lab</h1>
+        <div class="mb-5">
+            <h2 class="text-2xl font-bold mb-3">About Us</h2>
+            <p class="text-base leading-relaxed">
+                The Computer Intelligence and Biorobotics Lab (CIBLab) is a laboratory dedicated to advancing artificial intelligence and its application in critical sectors such as medicine, biology, agronomy, robotics, industrial processes, and energy.
+            </p>
+        </div>
+        <div class="mb-5">
+            <h2 class="text-2xl font-bold mb-3">Our Mission</h2>
+            <p class="text-base leading-relaxed">
+                Through the design and implementation of advanced machine learning techniques and metaheuristic methods, the laboratory addresses complex problems, promoting innovative and sustainable solutions.
+            </p>
+        </div>
+        <div class="mb-5">
+            <h2 class="text-2xl font-bold mb-3">What We Do</h2>
+            <ul class="list-none p-0">
+                <li class="text-base my-2">Develop algorithms and computational tools for automation in monitoring and quantification.</li>
+                <li class="text-base my-2">Model and simulate complex problems using artificial intelligence.</li>
+                <li class="text-base my-2">Innovate solutions for critical sectors such as healthcare, energy, and robotics.</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-[#1a273b] text-white py-4 text-center">
+        <a href="https://x.com/CIBLab" target="_blank">
+            <img src="Images/twitter_logo.jpg" alt="Twitter" class="w-8 h-8 inline-block">
+        </a>
+        <p class="text-sm mt-2">The CIBLab Website</p>
+    </footer>
+
+    <!-- Incluir el archivo JavaScript del menú -->
+    <script src="assets/js/menu.js"></script>
+</body>
+</html>

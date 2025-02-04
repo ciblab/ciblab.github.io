@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Research</title>
-    <link rel="stylesheet" href="../style.css"> 
+    <link rel="stylesheet" href="../style.css">
     <style>
         /* Estilos adicionales para el menú de hamburguesa */
         #mobile-menu {
@@ -18,82 +19,87 @@
             background-color: #7f7fa8;
             z-index: 10;
         }
+
         #mobile-menu.open {
             transform: translateY(0);
         }
     </style>
 </head>
+
 <body>
 
-<header>
-    <a href="../index.html">
-        <img src="../Images/Imagen1.jpg" alt="Logo">
-    </a> 
-    <!-- Botón de hamburguesa para móviles -->
-    <button id="menu-hamburguesa" style="z-index: 101;" class="md:hidden focus:outline-none">
-        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
-        </svg>
-    </button>
-</header>
+    <header>
+        <a href="../index.html">
+            <img src="../Images/Imagen1.jpg" alt="Logo">
+        </a>
+        <!-- Botón de hamburguesa para móviles -->
+        <button id="menu-hamburguesa" style="z-index: 101;" class="md:hidden focus:outline-none">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+            </svg>
+        </button>
+    </header>
 
-<div class="content">
-    <h1 class="text-4xl font-bold text-center text-white">Research</h1>
-    <div class="section">
-        <h2 class="text-2xl font-semibold text-gray-200">Recent projects</h2>
-        <p class="text-lg text-gray-300">
-            The laboratory is working on various projects that address complex problems and seek innovative solutions:
-        </p>
-        <div class="mosaic">
-            <div class="mosaic-item">
-                <img src="../Images/algorithm-design.png" alt="Algorithm Optimization">
-                <h3>Algorithm Optimization</h3>
-                <p>Development of algorithms to monitor crops and optimize the use of resources such as water and fertilizers.</p>
-            </div>
-            <div class="mosaic-item">
-                <img src="../Images/ai.png" alt="Robotics Simulation">
-                <h3>Robotics Simulation</h3>
-                <p>Implementation of models to improve human-robot interaction in industrial environments.</p>
-            </div>
-            <div class="mosaic-item">
-                <img src="../Images/artificial-intelligence.png" alt="AI-Assisted Diagnosis">
-                <h3>AI-Assisted Diagnosis</h3>
-                <p>Creation of tools to support doctors in the early detection of critical diseases.</p>
-            </div>
-        </div>
-        
+    <div class="content">
+        <h1 class="text-4xl font-bold text-center text-white">Research</h1>
         <div class="section">
-            <h2  class="text-4xl font-bold text-center text-white">Research Areas</h2>
-            <p class="text-lg text-gray-300">Our main research areas include:</p>
+            <h2 class="text-2xl font-semibold text-gray-200">Recent projects</h2>
+            <p class="text-lg text-gray-300">
+                The laboratory is working on various projects that address complex problems and seek innovative
+                solutions:
+            </p>
             <div class="mosaic">
                 <div class="mosaic-item">
-                    <img src="../Images/3d-modeling.png" alt="Machine Learning Algorithms">
-                    <h3>Machine Learning Algorithms</h3>
-                    <p>Design of advanced models for prediction and decision-making.</p>
+                    <img src="../Images/algorithm-design.png" alt="Algorithm Optimization">
+                    <h3>Algorithm Optimization</h3>
+                    <p>Development of algorithms to monitor crops and optimize the use of resources such as water and
+                        fertilizers.</p>
                 </div>
                 <div class="mosaic-item">
-                    <img src="../Images/optimization.png" alt="Metaheuristics">
-                    <h3>Metaheuristics</h3>
-                    <p>Development of techniques to solve complex optimization problems.</p>
+                    <img src="../Images/ai.png" alt="Robotics Simulation">
+                    <h3>Robotics Simulation</h3>
+                    <p>Implementation of models to improve human-robot interaction in industrial environments.</p>
                 </div>
                 <div class="mosaic-item">
-                    <img src="../Images/simulation.png" alt="Computational Simulation">
-                    <h3>Computational Simulation</h3>
-                    <p>Modeling and simulation of processes in biology, robotics, and energy.</p>
+                    <img src="../Images/artificial-intelligence.png" alt="AI-Assisted Diagnosis">
+                    <h3>AI-Assisted Diagnosis</h3>
+                    <p>Creation of tools to support doctors in the early detection of critical diseases.</p>
                 </div>
-        
+            </div>
+
+            <div class="section">
+                <h2 class="text-4xl font-bold text-center text-white">Research Areas</h2>
+                <p class="text-lg text-gray-300">Our main research areas include:</p>
+                <div class="mosaic">
+                    <div class="mosaic-item">
+                        <img src="../Images/3d-modeling.png" alt="Machine Learning Algorithms">
+                        <h3>Machine Learning Algorithms</h3>
+                        <p>Design of advanced models for prediction and decision-making.</p>
+                    </div>
+                    <div class="mosaic-item">
+                        <img src="../Images/optimization.png" alt="Metaheuristics">
+                        <h3>Metaheuristics</h3>
+                        <p>Development of techniques to solve complex optimization problems.</p>
+                    </div>
+                    <div class="mosaic-item">
+                        <img src="../Images/simulation.png" alt="Computational Simulation">
+                        <h3>Computational Simulation</h3>
+                        <p>Modeling and simulation of processes in biology, robotics, and energy.</p>
+                    </div>
+
+                </div>
+            </div>
         </div>
     </div>
-</div>
+    <footer>
+        <a href="https://x.com/CIBLab" target="_blank">
+            <img src="../Images/twitter_logo.jpg" alt="Twitter" class="footer-icon">
+        </a>
+        <p>The CIBLab Website</p>
+    </footer>
 
-<footer>
-    <a href="https://x.com/CIBLab" target="_blank">
-        <img src="../Images/twitter_logo.jpg" alt="Twitter" class="footer-icon">
-    </a>
-    <p>The CIBLab Website</p>
-</footer> 
-
-<script src="../assets/js/menu-public.js"></script>
+    <script src="../assets/js/menu-public.js"></script>
 
 </body>
+
 </html>
